@@ -6,6 +6,9 @@
     background-image: linear-gradient(0,#ff6533,#f53e2d
     );
 }
+.color-change{
+    color: #ee4d2d;
+}
 
 .navbar {
     display: flex;
@@ -874,6 +877,9 @@ i.header__mobile-search-icon {
     right: -5px;
     color: var(--primary-color);
 }
+.app__container .banner img{
+    width: 180px;
+}
 /* Home sort + filter */
 .home-filter {
     background-color: rgba(0, 0, 0, 0.04);
@@ -1285,4 +1291,21 @@ i.icon-like-fill {
     margin: 0;
     text-align: center;
     font-size: 1.2rem;
+}
+.modal--button{
+    position: fixed;
+    top: 700px;
+    left: 1450px;
+    right: 50px;
+    display: flex;
+}
+.modal--button .button--messenger{
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+.modal--button .button--messenger i{
+    width: 100%;
+    font-size: 80px;
+    color: #00B2FF;
 }
